@@ -1,0 +1,61 @@
+[
+  {
+    "description": "As a user\nI want to log into the application",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the login page",
+            "match": {
+              "location": "step-definitions\\login-step.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1242199,
+              "error_message": "TypeError: LoginPage.navigateToLoginPage is not a function\n    at World.<anonymous> (C:\\PlaywrightAutomation\\my-new-playwright-project\\step-definitions\\login-step.js:8:19)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter valid credentials",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "step-definitions\\login-step.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-action",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login action",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

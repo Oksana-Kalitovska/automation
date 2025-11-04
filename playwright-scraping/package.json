@@ -1,0 +1,22 @@
+{
+  "name": "playwright-scraping",
+  "version": "1.0.0",
+  "description": "Web scraping with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "scraper": "node scraper.ts",
+    "scraper:3": "powershell -Command \"for ($i=1; $i -le 3; $i++) { node scraper.ts }\""
+  },
+  "keywords": [
+    "Web",
+    "Scraping",
+    "Playwright"
+  ],
+  "author": "OK",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.56.1",
+    "prettier": "^3.6.2",
+    "random-useragent": "^0.5.0"
+  }
+}

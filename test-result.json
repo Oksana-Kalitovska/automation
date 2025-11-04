@@ -1,0 +1,21 @@
+{
+  "test": "TestInfo Object",
+  "status": "passed",
+  "duration": 3636,
+  "errors": []
+}{
+  "test": "TestInfo Object",
+  "status": "passed",
+  "duration": 1018,
+  "errors": []
+}{
+  "test": "TestInfo Object",
+  "status": "passed",
+  "duration": 1212,
+  "errors": []
+}{
+  "test": "TestInfo Object",
+  "status": "passed",
+  "duration": 2025,
+  "errors": []
+}
